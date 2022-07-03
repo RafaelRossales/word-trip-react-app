@@ -4,8 +4,8 @@
 /node_modules
 /.pnp
 .pnp.js
-.eslintrc.json
-next-env.dts
+/.eslintrc.json
+/next-env.dts
 yarn.lock
 tsconfig.json
 next.config.js
