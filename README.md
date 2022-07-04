@@ -1,23 +1,41 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+<p align="center">
+<img src="./public/images/logo.png" width="240" height="60">
+</p>
+
+<h2>World Trip Application 💻</h2>
+
+<p>
+ World Trip web application intends to be a web responsive aplication, which has as main purpose to put into practice the knowledge acquired througout the React course provided by the Rocketseat platform. 
+</p>
+
+<p>
+This application was developed using the following tecnologies:
+</p>
+<ul>
+<li> React JS (<small>version 17.0.2</small>)</li>
+<li> Next JS (<small>version ^12.1.1</small>)</li>
+<li> Chackra UI (<small>version ^10.1.1</small>)</li>
+<li> TypeScript (<small>version ^4.2.4</small>)</li>
+</ul>
+
+<h2>Widescreen Sample</h2>
+<p align="center">
+    <img src="./public/gifs/home.gif" width="700" height="380">
+</p>
+
+<h2>Mobile Sample</h2>
+<p align="center">
+    <img src="./public/gifs/mobile.gif" width="375" height="667">
+</p>
 
 ## Getting Started
 
-First, run the development server:
+Run the development server:
 
 ```bash
-npm run dev
-# or
-yarn dev
+yarn run dev
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:

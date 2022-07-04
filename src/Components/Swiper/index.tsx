@@ -1,7 +1,6 @@
-import{Flex,Image,Box,Text} from '@chakra-ui/react'
+import{Flex,Image} from '@chakra-ui/react'
 import { Pagination, Navigation } from 'swiper'
 import { Swiper, SwiperSlide } from 'swiper/react'
-import DarkLayer from './DarkLayer';
 import Details from './Details';
 
 export default function SwiperComponent(){
@@ -19,7 +18,6 @@ export default function SwiperComponent(){
         navigation 
         pagination={{dynamicBullets: true}}
         >
-            {/* <DarkLayer width={1240} height={450}/> */}
         <SwiperSlide>
             <Image src="./images/europe.png" />
             <Details 
@@ -29,7 +27,6 @@ export default function SwiperComponent(){
             />
         </SwiperSlide>
         <SwiperSlide>
-            {/* <DarkLayer width={1240} height={450}/> */}
             <Image src="./images/asia.jpg" />
             <Details 
                 title="Asia" 
@@ -39,7 +36,6 @@ export default function SwiperComponent(){
 
         </SwiperSlide>
         <SwiperSlide>
-            {/* <DarkLayer width={1240} height={450}/> */}
             <Image src="./images/africa.jpg" />
             <Details 
             title="Africa" 
@@ -48,7 +44,6 @@ export default function SwiperComponent(){
             />
         </SwiperSlide >
         <SwiperSlide>
-            {/* <DarkLayer width={1240} height={450}/> */}
             <Image src="./images/northAmerica.jpg" />
             <Details 
             title="América do Norte" 

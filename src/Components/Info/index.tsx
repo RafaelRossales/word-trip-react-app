@@ -12,7 +12,7 @@ export default function Info({amount,description}:InfoProps){
         <Box
         pos="relative"
         display="flex" 
-        flexDir="row" 
+        flexDir={{base:'column', lg:'row'}}
         alignContent= "center"  
         justifyContent= {{base:'flex-start', lg:'center'}}
         flexWrap="wrap"
