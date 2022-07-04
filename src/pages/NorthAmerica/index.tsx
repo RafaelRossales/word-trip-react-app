@@ -44,10 +44,9 @@ export default function NorthAmerica(){
                 align="justify" 
                 lineHeight={["21px","36px"]} 
                 fontWeight={400}>
-                    A Ásia é um continente vasto, cuja área corresponde a cerca de um terço de 
-                    todas as terras emersas do mundo. Além da extensão territorial, 
-                    a população total alcança a marca impressionante de mais de 4 bilhões, 
-                    o que é quase 50% de todos os habitantes do globo.
+                    A América do Norte está localizada no extremo norte das Américas e é composta por apenas três países: 
+                    Estados Unidos, Canadá e México, além de territórios de domínios europeus, como a Groelândia 
+                    (pertencente ao Reino da Dinamarca, com representação no parlamento) e Bermudas (dependência britânica).
                 </Text>
             </Box>
             <Box ml={["15px","100px"]} mt={55}>

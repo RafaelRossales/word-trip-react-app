@@ -19,40 +19,50 @@ export default function SwiperComponent(){
         navigation 
         pagination={{dynamicBullets: true}}
         >
+            {/* <DarkLayer width={1240} height={450}/> */}
         <SwiperSlide>
+            <Image src="./images/europe.png" />
             <Details 
                 title="Europa" 
                 description="O continente mais antigo." 
                 href="/europe"
             />
-            <Image src="./images/europe.png" />
         </SwiperSlide>
         <SwiperSlide>
-            <DarkLayer width={1240} height={450}/>
+            {/* <DarkLayer width={1240} height={450}/> */}
+            <Image src="./images/asia.jpg" />
             <Details 
                 title="Asia" 
                 description="O continente mais antigo." 
                 href="/asia"
-            />
-            <Image src="./images/asia.jpg" />
+                />
+
         </SwiperSlide>
         <SwiperSlide>
-            <DarkLayer width={1240} height={450}/>
+            {/* <DarkLayer width={1240} height={450}/> */}
+            <Image src="./images/africa.jpg" />
             <Details 
             title="Africa" 
             description="O continente mais antigo." 
             href="/africa"
             />
-            <Image src="./images/africa.jpg" />
         </SwiperSlide >
         <SwiperSlide>
-            <DarkLayer width={1240} height={450}/>
+            {/* <DarkLayer width={1240} height={450}/> */}
+            <Image src="./images/northAmerica.jpg" />
             <Details 
             title="América do Norte" 
             description="O continente mais antigo." 
-            href="/africa"
+            href="/NorthAmerica"
             />
-            <Image src="./images/northAmerica.jpg" />
+        </SwiperSlide >
+        <SwiperSlide>
+            <Image src="./images/southAmerica.jpg" />
+            <Details 
+            title="América do Sul" 
+            description="O continente mais antigo." 
+            href="/SouthAmerica"
+            />
         </SwiperSlide >
     </Swiper>
     </Flex>

@@ -12,7 +12,6 @@ export default function DetailBanner({background,title}:DetailBannerProps){
         maxWidth="100%"
         h= {{base:"150px",lg:"500px"}}
         >
-
             <Flex>
                 <Image src={background} 
                 w="100vw" 
